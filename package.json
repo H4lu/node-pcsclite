@@ -1,49 +1,73 @@
 {
-  "name": "@pokusew/pcsclite",
-  "version": "0.4.18",
-  "description": "Bindings over PC/SC to access Smart Cards",
-  "keywords": [
-    "nfc",
-    "pcsc",
-    "pcsclite",
-    "smartcards"
-  ],
-  "homepage": "https://github.com/pokusew/node-pcsclite#readme",
-  "bugs": {
-    "url": "https://github.com/pokusew/node-pcsclite/issues"
+  "_from": "git+https://github.com/philoliver/node-pcsclite.git",
+  "_id": "pcsclite@0.4.17",
+  "_inBundle": false,
+  "_location": "/pcsclite",
+  "_phantomChildren": {
+    "loader-utils": "0.2.17"
   },
-  "license": "ISC",
+  "_requested": {
+    "type": "git",
+    "raw": "https://github.com/philoliver/node-pcsclite",
+    "rawSpec": "https://github.com/philoliver/node-pcsclite",
+    "saveSpec": "git+https://github.com/philoliver/node-pcsclite.git",
+    "fetchSpec": "https://github.com/philoliver/node-pcsclite.git",
+    "gitCommittish": null
+  },
+  "_requiredBy": [
+    "#USER",
+    "/"
+  ],
+  "_resolved": "git+https://github.com/philoliver/node-pcsclite.git#909868315b4cc4873dc65af365f8d61d4e25d8cd",
+  "_spec": "https://github.com/philoliver/node-pcsclite",
+  "_where": "C:\\Users\\Denis\\Desktop\\CryptoWallet\\CryptoWallet",
   "author": {
     "name": "Santiago Gimeno",
     "email": "santiago.gimeno@gmail.com",
     "url": "https://github.com/santigimeno"
   },
+  "bugs": {
+    "url": "https://github.com/pokusew/node-pcsclite/issues"
+  },
+  "bundleDependencies": false,
   "contributors": [
     {
       "name": "Martin Endler",
       "url": "https://github.com/pokusew"
     }
   ],
-  "main": "lib/pcsclite.js",
+  "dependencies": {
+    "nan": "^2.5.1",
+    "node-loader": "git://github.com/gch1p/node-loader.git#master"
+  },
+  "deprecated": false,
+  "description": "Bindings over PC/SC to access Smart Cards",
+  "devDependencies": {
+    "mocha": "^3.2.0",
+    "should": "^11.1.2",
+    "sinon": "^1.17.7"
+  },
   "directories": {
     "test": "test"
   },
+  "gypfile": true,
+  "homepage": "https://github.com/pokusew/node-pcsclite#readme",
+  "keywords": [
+    "nfc",
+    "pcsc",
+    "pcsclite",
+    "smartcards"
+  ],
+  "license": "ISC",
+  "main": "lib/pcsclite.js",
+  "name": "pcsclite",
   "repository": {
     "type": "git",
-    "url": "https://github.com/pokusew/node-pcsclite.git"
+    "url": "git+https://github.com/pokusew/node-pcsclite.git"
   },
   "scripts": {
     "install": "node-gyp rebuild",
     "test": "mocha"
   },
-  "dependencies": {
-    "bindings": "^1.3.0",
-    "nan": "^2.7.0"
-  },
-  "devDependencies": {
-    "mocha": "^3.5.0",
-    "should": "^12.0.0",
-    "sinon": "^3.2.1"
-  },
-  "gypfile": true
+  "version": "0.4.17"
 }
